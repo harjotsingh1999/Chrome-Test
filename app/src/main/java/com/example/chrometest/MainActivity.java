@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
             textView.setText(text);
         } catch (PackageManager.NameNotFoundException e) {
             e.printStackTrace();
+            textView.setText("Chrome not installed");
         }
     }
 }
